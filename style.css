@@ -3,18 +3,24 @@
   width: 150px;
   border: 1px solid #9325BC;
   padding: 10px;
+  text-shadow: 2px 3px 4px ;
+  box-shadow: 3px 5px 6px #00f;
 }
 .box:hover
 {
   -moz-box-shadow: 0 0 10px #ccc;
   -webkit-box-shadow: 0 0 10px #ccc;
   box-shadow: 0 0 10px #ccc;
+  text-shadow: 3px 4px 5px #9325BC;
+  box-shadow: 3px 4px 5px #00f;
+  
 }
 .imgBox
 {
   width: 441px;
   height: 248px;
   background: url(http://www.corelangs.com/css/box/img/water.jpg) no-repeat;
+  text-shadow: inset 2px 3px 4px #FF2400;
 }
 .imgBox:hover
 {
@@ -48,6 +54,7 @@ img
   height:217px;
   background:#FFF;
   opacity:0;
+  text-shadow: 2px 3px 4px 35px #00f;
 }
 .pic:hover .text
 {
@@ -61,7 +68,8 @@ img
 }
 .imgBox
     {
-      width: 191px;
+      width: 191px;  
+      box-shadow: inset 3px 4px 15px ;
       height: 191px;
       background: url(http://www.corelangs.com/css/box/img/duck.png) no-repeat;
     }
@@ -76,6 +84,7 @@ img
       height:185px;
       display:block;
       background-image: url('img/duck.png');
+  
     }
     .urlImg:hover {
       background-image: url('img/peng.png');
@@ -95,12 +104,27 @@ img
         border-width: medium;
         border-style: solid;
         border-color: #00f;
+        text-align: center;
+        text-shadow: 2px 3px 3px #9325BC;
+        box-shadow: 2px 3px 4px #9325BC;
         }
-      
+      h1{
+        text-shadow: 3px 4px 5px #00ff00;
+        box-shadow: inset 2px 3px 5px #000000;
+        width: 50%;
+      }
+      h2{
+        text-shadow: 3px 4px 5px rgb(241, 21, 21);
+        width: 50%;
+      }
       p {
         border-width: 6px;
         border-style: dashed;
         border-color: #f00;
+        text-shadow: 2px 3px 4px #00f;
+        box-shadow: 3px 4px 5px #9325BC;
+        margin: 10%;
+        text-align: center;
         }
         p {
           border-style: solid;
@@ -108,9 +132,11 @@ img
           border-top-width: 0;
           border-right-width: 0;
           border-left-width: 0;
+          box-shadow: 2px 3px 4px #f00;
         }
         p {
           border: thick  groove  rgb(255,0,255)
+         
         }
 
 
