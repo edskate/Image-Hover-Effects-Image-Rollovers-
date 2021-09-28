@@ -1,2 +1,2 @@
 # Image-Hover-Effects-Image-Rollovers-
-declarando formas 
+declarando formas
